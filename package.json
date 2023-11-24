@@ -1,10 +1,10 @@
 {
   "name": "bend",
   "version": "1.0.0",
-  "description": "Speed up page load with optimized and responsive image variations ",
+  "description": "Speed up page load with optimized and responsive image variations for screen sizes",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc ./src/index.ts --outDir dist --watch"
   },
   "keywords": [
     "responsive",
@@ -13,5 +13,8 @@
     "image-render"
   ],
   "author": "Romeo Peter",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
 }
