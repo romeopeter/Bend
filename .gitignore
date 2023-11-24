@@ -1,1 +1,11 @@
+# npm registry
+node_modules
+
+# Compiled source code output
+dist
+
+# ToDo
 ToDO.md
+
+# VS Code
+.vscode
