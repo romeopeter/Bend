@@ -1,6 +1,9 @@
 # npm registry
 node_modules
 
+# HTML file
+browser/
+
 # Compiled source code output
 dist
 
