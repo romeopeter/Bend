@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry" // Include polyfills based on actual usage
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}
