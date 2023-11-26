@@ -4,6 +4,9 @@ node_modules
 # HTML file
 browser/
 
+# Assets
+assets/
+
 # Compiled source code output
 dist
 
